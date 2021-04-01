@@ -22,5 +22,4 @@ def run_guessing_game
     end
     # If the user's input DOES NOT matches the random number:
     # Sorry! The computer guessed <number>.
-    
 end
