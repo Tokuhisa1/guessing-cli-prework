@@ -7,8 +7,8 @@ def run_guessing_game
   
   while input != 'exit'
     number = rand(6)
-    # Prompts the user to guess their own number between 1 and
-    # 6
+    # Prompts the user to guess their own number between 1
+    # and 6
     puts 'Guess a number between 1 and 6.'
     # Capture user input from the command line
     input = gets.chomp
@@ -25,8 +25,9 @@ def run_guessing_game
       # guessed the correct number!
       if input.to_i == number
         puts 'You guessed the correct number!'
+      # If the user's input DOES NOT matches the random
+      # number:
+      else
       end
-      # If the user's input DOES NOT matches the random number:
-      # Sorry! The computer guessed <number>.
   end
 end
