@@ -1,3 +1,5 @@
+require pry
+
 # Code your solution here!
 def run_guessing_game
   # Generate and store a random number between 1 and 6
