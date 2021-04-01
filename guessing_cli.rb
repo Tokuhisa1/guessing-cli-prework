@@ -9,7 +9,7 @@ def run_guessing_game
   input = gets.chomp
   # Compare that input to the random number that has been
   # generated
-  
+  binding.pry
   # Print out one of three statements:
     # It the user's input is equal to "exit": Goodbye!
     if input == 'exit'
