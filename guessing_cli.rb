@@ -27,7 +27,8 @@ def run_guessing_game
       puts 'You guessed the correct number!'
     # If the user's input DOES NOT matches the random number:
     else
-      
+      # Sorry! The computer guessed <number>.
+      puts "Sorry! The computer guessed #{number}."
     end
   end
 end
